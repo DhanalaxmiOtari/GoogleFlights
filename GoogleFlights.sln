@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleFlights", "GoogleFlights\GoogleFlights.csproj", "{7F93C528-00D3-4DB5-A014-3551614DB4A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleFlights", "GoogleFlights\GoogleFlights.csproj", "{7F93C528-00D3-4DB5-A014-3551614DB4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossBrowserFunctionalTest", "CrossBrowserFunctionalTest\CrossBrowserFunctionalTest.csproj", "{242E17D7-3141-4DD7-A8F8-95105EEAB406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nUnitTests", "nUnitTests\nUnitTests.csproj", "{55C949BE-7C88-4818-9E4B-D2131ED01265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7F93C528-00D3-4DB5-A014-3551614DB4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F93C528-00D3-4DB5-A014-3551614DB4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F93C528-00D3-4DB5-A014-3551614DB4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242E17D7-3141-4DD7-A8F8-95105EEAB406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242E17D7-3141-4DD7-A8F8-95105EEAB406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242E17D7-3141-4DD7-A8F8-95105EEAB406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242E17D7-3141-4DD7-A8F8-95105EEAB406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C949BE-7C88-4818-9E4B-D2131ED01265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C949BE-7C88-4818-9E4B-D2131ED01265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C949BE-7C88-4818-9E4B-D2131ED01265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C949BE-7C88-4818-9E4B-D2131ED01265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
